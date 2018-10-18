@@ -1,15 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('build') {
+    stage('First stage . which is build') {
       parallel {
-        stage('build') {
+        stage('second stage') {
           steps {
             sh 'echo "this is a build stage " '
             echo 'this is a first build stage'
           }
         }
-        stage('build 2') {
+        stage('third stage ') {
           steps {
             sh 'echo "this is a build stage " '
           }
