@@ -8,7 +8,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
+stages:
+  - stage: 
+      echo this is stage
 steps:
 - script: 
     echo Hello, world!
@@ -22,4 +24,4 @@ steps:
     echo This is my step in the script, ok?
   displayName: dname
 - bash:
-    echo this is echo for bash line
+    echo this is echo for b
