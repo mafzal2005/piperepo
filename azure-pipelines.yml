@@ -8,9 +8,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-stages:
-  - stage: 
-      echo this is stage
+#stages:
+#  - stage: 
+#      echo this is stage
 steps:
 - script: 
     echo Hello, world!
