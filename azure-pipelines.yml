@@ -20,3 +20,5 @@ steps:
   displayName: 'Second script command'
 - script: 
     echo This is my step in the script, ok?
+  displayName: dname
+
