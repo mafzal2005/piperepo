@@ -17,8 +17,9 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-#  displayName: 'Second script command'
+  displayName: 'Second script command'
 - script: 
     echo This is my step in the script, ok?
-#  displayName: dname
-
+  displayName: dname
+- bash:
+    echo this is echo for bash line
